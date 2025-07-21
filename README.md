@@ -21,7 +21,7 @@ Meal-Mate is a smart and user-friendly meal planning and recipe app designed to 
 <img width="298" height="580" alt="Home Screen" src="https://github.com/user-attachments/assets/aa7d23e6-b0ed-4fde-9132-9b8511196fd6" />
 
 </div>
----
+
 ## Features
 
 - Simple and clean UI/UX design  
