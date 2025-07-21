@@ -8,12 +8,12 @@ Meal-Mate is a smart and user-friendly meal planning and recipe app designed to 
 <div align="center">
 
 ### Flash Screen
-<img width="300" alt="Flash Screen" src="https://github.com/user-attachments/assets/55f010c0-89c7-4f17-86be-95be19f62074" />
+<img width="298" alt="Flash Screen" src="https://github.com/user-attachments/assets/55f010c0-89c7-4f17-86be-95be19f62074" />
 
 ---
 
 ### Welcome Screen
-<img width="300" alt="Welcome Screen" src="https://github.com/user-attachments/assets/a31807ae-3e9e-4e07-b858-d45d6ea64dac" />
+<img width="298" alt="Welcome Screen" src="https://github.com/user-attachments/assets/a31807ae-3e9e-4e07-b858-d45d6ea64dac" />
 
 ---
 
