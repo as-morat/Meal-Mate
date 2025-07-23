@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.appui.screens.HomeScreenPrev
 import com.example.appui.ui.theme.AppUITheme
 
 class MainActivity : ComponentActivity() {
@@ -13,9 +12,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AppUITheme {
-//                FlashScreenPrev()
-//                WelcomePrev()
-                HomeScreenPrev()
+                NavHostApp()
             }
         }
     }

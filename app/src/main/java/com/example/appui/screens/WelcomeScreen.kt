@@ -27,13 +27,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.appui.R
 
 @Composable
-fun WelcomeScreen(modifier: Modifier = Modifier) {
+fun WelcomeScreen(navController: NavController) {
 
     Column (
         Modifier
@@ -104,7 +104,9 @@ fun WelcomeScreen(modifier: Modifier = Modifier) {
 
             Spacer(Modifier.height(20.dp))
 
-            Button(onClick = {},
+            Button(onClick = {
+                navController.navigate("home")
+            },
                 Modifier
                     .height(56.dp)
                     .fillMaxWidth(),
@@ -119,10 +121,4 @@ fun WelcomeScreen(modifier: Modifier = Modifier) {
         }
     }
 
-}
-
-@Composable
-@Preview(showBackground = true)
-fun WelcomePrev(modifier: Modifier = Modifier) {
-    WelcomeScreen()
 }

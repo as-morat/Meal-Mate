@@ -40,13 +40,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.appui.R
 
 @Composable
-fun HomeScreen(modifier: Modifier = Modifier) {
+fun HomeScreen(navController: NavController) {
+    val modifier = Modifier
     Column(
         modifier
             .fillMaxSize()
@@ -302,11 +303,4 @@ fun RecommendedComboCard(
             }
         }
     }
-}
-
-
-@Composable
-@Preview(showBackground = true)
-fun HomeScreenPrev() {
-    HomeScreen()
 }
